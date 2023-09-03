@@ -227,14 +227,7 @@ export const RegistrationForm = () => {
               }}
             />
            
-           <Stack
-        //mt={2}
-        sx={{ backgroundColor: "green" }}>
-        <Typography sx={{ fontSize: "25px", font: "Bold", color: "white" }}>
-          {" "}
-          {"Contact D`urgence "}{" "}
-        </Typography>
-      </Stack>
+           
             <Typography sx={{ fontSize: "25px", font: "Bold" }}  >
               Contact D`urgence 
             </Typography>

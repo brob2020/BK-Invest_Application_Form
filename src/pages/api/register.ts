@@ -85,7 +85,7 @@ export default async function handler(
       console.log(body);
       //;Bkinvest23@gmail.com
      const emailRes = await transporter.sendMail({
-        from: `Noreply@BKInvest.com`,
+        from: `Noreply@BKInvest.com;Bkinvest23@gmail.com`,
         to: `nodemailer506@gmail.com`,
         subject: ` Form Application for ${lastName}   ${firstName}`,
         html: `<p> This request was made and is waiting your approval. See the details bellow</p><br>
@@ -97,7 +97,7 @@ export default async function handler(
        <p><strong> please remember to update when done with it. Thanks </p><br>
        `,
       });
-      console.log(emailRes)
+      
       console.log("message send ");
     } catch (e) {
       console.log(e);
